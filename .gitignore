@@ -1,0 +1,18 @@
+# --- Frontend Security & Junk ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# --- Backend Security & Junk ---
+backend/target/
+backend/.mvn/wrapper/
+backend/.idea/
+backend/*.iml
+#  THIS LINE HIDES YOUR BACKEND KEYS:
+backend/src/main/resources/application.properties
+
+# --- General Junk ---
+.DS_Store
+Thumbs.db
+.git
