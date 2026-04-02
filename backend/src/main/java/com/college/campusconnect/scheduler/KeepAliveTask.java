@@ -13,7 +13,7 @@ public class KeepAliveTask {
     public void pingSelf() {
         try {
             // Replace with your actual Render backend URL
-            URL url = new URL("https://campusconnect-b6ys.onrender.com/api/health");
+            URL url = new URL("https://campusconnect-ett.onrender.com/api/health");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
             connection.connect();
